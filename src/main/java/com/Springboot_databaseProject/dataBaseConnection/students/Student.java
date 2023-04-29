@@ -6,23 +6,23 @@ public class Student {
 
 	private String name;
 
-	private float perc;
+	private float Perctage;
 
 	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Student(int id, String name, float perc) {
+	public Student(int id, String name, float Perctage) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.perc = perc;
+		this.Perctage = Perctage;
 	}
 
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", perc=" + perc + "]";
+		return "Student [id=" + id + ", name=" + name + ", Perctage=" + Perctage + "]";
 	}
 
 	public int getId() {
@@ -41,12 +41,12 @@ public class Student {
 		this.name = name;
 	}
 
-	public float getPerc() {
-		return perc;
+	public float getPerctage() {
+		return Perctage;
 	}
 
-	public void setPerc(float perc) {
-		this.perc = perc;
+	public void setPerc(float Perctage) {
+		this.Perctage = Perctage;
 	}
 
 }
