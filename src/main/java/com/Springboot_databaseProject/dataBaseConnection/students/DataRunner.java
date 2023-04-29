@@ -17,6 +17,8 @@ public class DataRunner implements CommandLineRunner{
 		student.insert(new Student(3,"Ravi",84.2f));
 		student.insert(new Student(4,"Dhruv",67.5f));
 		student.insert(new Student(5,"Ravi",44.8f));
+		//updating student 3 percentage
+		 student.updateById( 82.5f,3);
 		
 	}
 
